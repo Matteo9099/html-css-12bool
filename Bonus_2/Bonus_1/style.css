@@ -1,3 +1,7 @@
+body{
+    background-color: brown;
+}
+
 .box{
     min-height: 50px;
     text-align: center;
@@ -83,4 +87,23 @@ h1{
     display: inline-block;
     position: absolute;
     z-index: 999;
+}
+
+.player{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+
+.kill{
+    display: flex;
+    align-items: center;
 }
