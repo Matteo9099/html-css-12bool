@@ -98,12 +98,8 @@ h1{
     color: #fff;
 }
 
-.name{
+.people{
     display: flex;
     align-items: center;
-}
-
-.kill{
-    display: flex;
-    align-items: center;
+    flex-direction: column;
 }
