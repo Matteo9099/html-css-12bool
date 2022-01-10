@@ -1,7 +1,7 @@
 .box{
     min-height: 50px;
     text-align: center;
-    background-color: rgb(11, 108, 236);
+    background-color: rgb(77, 146, 236);
     color: #fff;
     padding: 10px;
     border: 1px solid #fff;
@@ -49,4 +49,38 @@ h1{
 .flex-space-between{
     display: flex;
     justify-content: space-between;
+}
+
+.nave{
+    background-color: rgb(192, 192, 21);
+    border: 1px solid#000;
+    border-radius: 10px;
+    height: 25px;
+    position: absolute;
+}
+
+.small{
+    width: 100px;
+}
+
+.medium{
+    width: 200px;
+}
+
+.big{
+    width: 300px;
+}
+
+.mancato{
+    color: #000;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.colpito{
+    color: red;
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    z-index: 999;
 }
