@@ -1,0 +1,13 @@
+.box{
+    min-height: 50px;
+    text-align: center;
+    background-color: rgb(11, 108, 236);
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.container-fluid .box .row .box{
+    background-color: rgb(32, 175, 32);
+    border: 1px solid rgb(11, 108, 236);
+}
