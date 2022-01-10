@@ -5,7 +5,6 @@
 
 .debug .row{
     background-color: pink;
-    min-height: 100px;
 }
 
 .debug .box{
@@ -17,3 +16,7 @@
     border: 1px solid #fff;
 }
 
+.debug .container-fluid .box .row .box{
+    background-color: rgb(12, 167, 12);
+    border: 1px solid rgb(11, 108, 236);
+}
