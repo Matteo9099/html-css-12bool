@@ -1,0 +1,47 @@
+.box{
+    min-height: 50px;
+    text-align: center;
+    background-color: rgb(11, 108, 236);
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+.container-fluid .box .row .box{
+    background-color: rgb(32, 175, 32);
+    border: 1px solid rgb(11, 108, 236);
+}
+
+.big{
+    height: 100px;
+}
+
+.flex-start{
+    display: flex;
+    align-items:flex-start;
+}
+
+.flex-middle{
+    display: flex;
+    align-items: center;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-end{
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
